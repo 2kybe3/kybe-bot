@@ -16,7 +16,7 @@ RUN cargo build --release -j $(nproc) --locked
 
 RUN cargo test
 
-FROM debian:bullseye-slim
+FROM debian:trixie-slim
 
 WORKDIR /opt/kybe-bot
 
