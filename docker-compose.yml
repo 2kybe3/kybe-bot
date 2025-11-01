@@ -1,0 +1,5 @@
+services:
+  kybe-bot:
+    image: reg.kybe.xyz/kybe-pub/kybe-bot:latest
+    container_name: kybe-bot
+    restart: unless-stopped
